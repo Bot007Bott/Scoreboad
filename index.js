@@ -53,7 +53,7 @@ function result() {
     if(homeScore > guestScore) {
         resultEl.textContent = ("HOME is leading by " + (homeScore - guestScore));
     } else if (homeScore < guestScore) {
-        resultEl.textContent = ("GUEST is leading by " + (guestScore - homeScore));
+        resultEl.textContent = ("AWAY is leading by " + (guestScore - homeScore));
     } else {
         resultEl.textContent = "NECK AND NECK!!"
     }
