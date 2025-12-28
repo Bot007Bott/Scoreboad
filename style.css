@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(34, 34, 82);
+    color: white;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.score {
+    font-size: 60px;
+    background-color: black;
+    padding: 25px 50px;
+    color: rgb(222, 73, 73);
+    border-radius: 15px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+#guestScore {
+    padding: 25px 60px;
+}
+.threeBtn {
+    margin-top: 50px;
+}
+.btn {
+    background-color: rgb(34, 34, 82);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 50;
+    font-size: 15px;
+    cursor: pointer;
+}
+#result {
+    font-size: 25px;
+    display: none;
+    font-style: oblique;
+}

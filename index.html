@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Happy+Monkey&family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <span class="score" id="homeScore">12</span>
+            <div class="threeBtn">
+                <button class="btn" onclick="onePlusHome()">+1</button>
+                <button class="btn" onclick="twoPlusHome()">+2</button>
+                <button class="btn" onclick="threePlusHome()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <span class="score" id="guestScore">8</span>
+            <div class="threeBtn">
+                <button class="btn" onclick="onePlusGuest()">+1</button>
+                <button class="btn" onclick="twoPlusGuest()">+2</button>
+                <button class="btn" onclick="threePlusGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="margin-bottom: 20px;">
+        <span id="result"></span>
+    </div>
+    <div>
+        <button class="btn" onclick="reset()">NEW GAME</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
